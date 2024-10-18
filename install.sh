@@ -14,7 +14,7 @@ else
    apt-get install -y git whiptail
 
    # enable I2C
-   raspi-config nonint do_i2c 0
+   #raspi-config nonint do_i2c 0
 
    git clone https://github.com/PiSupply/Flick.git
    cd Flick/flick
